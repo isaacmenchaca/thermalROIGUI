@@ -185,11 +185,4 @@ def checkNextExists(filePath, currentImage):
 
 eel.start('index.html', size=(1000,750))            # Start (this blocks and enters loop)
 
-
-# Current debugs to fix:
-    # [X] after clicking previous, next button is disabled.
-    # [] after going to previous and then transitioning to next, 
-        # check if next has any history of data entry. currently 
-        # its not accounting for that and making me put some coordinates.
-    # [X] instances of many dots at once when checking on previous.
-    # [X] CSV values arent being immediately saved after a certain row is changed 
+ 
